@@ -14,7 +14,7 @@ way to initiate an android project:
     mvn archetype:generate \
       -DarchetypeArtifactId=android-quickstart \
       -DarchetypeGroupId=de.akquinet.android.archetypes \
-      -DarchetypeVersion=1.0.9 \
+      -DarchetypeVersion=1.0.9-SNAPSHOT \
       -DgroupId=your.company \
       -DartifactId=my-android-application
 
@@ -41,7 +41,7 @@ This archetype creates a multi-module project containing an android application 
     mvn archetype:generate \
       -DarchetypeArtifactId=android-with-test \
       -DarchetypeGroupId=de.akquinet.android.archetypes \
-      -DarchetypeVersion=1.0.9 \
+      -DarchetypeVersion=1.0.9-SNAPSHOT \
       -DgroupId=com.foo.bar \
       -DartifactId=my-android-project \
       -Dpackage=com.foo.bar.android
@@ -65,7 +65,7 @@ way to initiate an android project:
     mvn archetype:generate \
       -DarchetypeArtifactId=android-library-quickstart \
       -DarchetypeGroupId=de.akquinet.android.archetypes \
-      -DarchetypeVersion=1.0.9 \
+      -DarchetypeVersion=1.0.9-SNAPSHOT \
       -DgroupId=your.company \
       -DartifactId=my-android-application
 
@@ -88,7 +88,7 @@ This archetype extends `android-with-test` with release management.
     mvn archetype:generate \
       -DarchetypeArtifactId=android-release \
       -DarchetypeGroupId=de.akquinet.android.archetypes \
-      -DarchetypeVersion=1.0.9 \
+      -DarchetypeVersion=1.0.9-SNAPSHOT \
       -DgroupId=com.foo.bar \
       -DartifactId=my-android-project \
       -Dpackage=com.foo.bar.android
@@ -150,7 +150,7 @@ To initiate an android project use:
     mvn archetype:generate \
       -DarchetypeArtifactId=android-novoda \
       -DarchetypeGroupId=de.akquinet.android.archetypes \
-      -DarchetypeVersion=1.0.9 \
+      -DarchetypeVersion=1.0.9-SNAPSHOT \
       -DgroupId=your.company \
       -DartifactId=my-android-application
 
