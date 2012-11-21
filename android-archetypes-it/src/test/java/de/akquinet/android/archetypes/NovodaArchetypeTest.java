@@ -97,8 +97,7 @@ public class NovodaArchetypeTest {
         Helper.assertContains(new File(NOVODA_DEFAULT_PATH + "/pom.xml"), "<android.version>4.1.1.4</android.version>");
         Helper.assertContains(new File(NOVODA_DEFAULT_PATH + "/pom.xml"), "<android-test.version>2.3.3</android-test.version>");
         Helper.assertContains(new File(NOVODA_DEFAULT_PATH + "/pom.xml"), "<android.sdk.platform>16</android.sdk.platform>");
-        Helper.assertContains(new File(NOVODA_DEFAULT_PATH + "/pom.xml"), "<android.maven.plugin.version>3.3.2</android.maven.plugin.version>");
-        Helper.assertContains(new File(NOVODA_DEFAULT_PATH + "/pom.xml"), "<support-library.version>r7</support-library.version>");
+        Helper.assertContains(new File(NOVODA_DEFAULT_PATH + "/pom.xml"), "<android.maven.plugin.version>3.4.1</android.maven.plugin.version>");
 
         Helper.assertContains(new File(NOVODA_DEFAULT_PATH + APP + "/AndroidManifest.xml"), "<activity android:name=\".MainActivity\">");
         Helper.assertContains(new File(NOVODA_DEFAULT_PATH + APP + "/AndroidManifest.xml"), "package=\"android.archetypes.test\"");

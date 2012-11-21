@@ -41,3 +41,6 @@ target
 .project
 app/gen-external-apklibs/
 *.orig
+
+# Mac OS hidden files
+*.DS_Store
